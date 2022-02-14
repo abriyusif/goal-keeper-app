@@ -1,0 +1,139 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.manchester-img img {
+    width: 170px;
+    height: 170px;
+}
+
+.liverpool-img img {
+    width: 170px;
+    height: 170px;
+}
+
+.manchester-side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.liverpool-side {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.manchester-text {
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.liverpool-text {
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.manchester-goal {
+    color: white;
+    font-size: 45px;
+}
+
+.liverpool-goal {
+    color: white;
+    font-size: 45px;
+}
+
+.manchester-goal-btn {
+    background-color: white;
+    text-transform: uppercase;
+    height: 45px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.liverpool-goal-btn {
+    background-color: white;
+    text-transform: uppercase;
+    height: 45px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.manchester-foul {
+    color: white;
+    font-size: 45px;
+}
+
+.liverpool-foul {
+    color: white;
+    font-size: 45px;
+}
+
+.manchester-foul-btn {
+    background-color: white;
+    text-transform: uppercase;
+    height: 45px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.liverpool-foul-btn {
+    background-color: white;
+    text-transform: uppercase;
+    height: 45px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.vertical-line {
+    border-left: 2px solid white;
+    height: 550px;
+    border-right: 2px solid white;
+}
+
+.reset-btn {
+    background-color: white;
+    text-transform: uppercase;
+    height: 45px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 48%;
+    margin-top: 20px;
+}
+
+.header-title {
+    background-color: white;
+    height: 80px;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
